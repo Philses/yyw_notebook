@@ -15,9 +15,10 @@ public class Quick3Sort {
     private static void sort(Comparable[] a, int lo, int hi) {
         if (lo >= hi)
             return;
+        Comparable v = a[lo];
         int lt = lo, i = lo + 1, gt = hi;
         while (i <= gt) {
-            int cmp = a[lo].compareTo(a[i]);
+            int cmp = v.compareTo(a[i]);
             if (cmp < 0) exch(a, i, gt--);
             else if (cmp > 0) exch(a, i++, lt++);
             else i++;
