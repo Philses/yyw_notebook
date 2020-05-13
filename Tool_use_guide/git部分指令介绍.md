@@ -22,3 +22,9 @@
 
 * 首先通过命令行`git mv <old filename> <new filename>`。注意这里文件名要写全相对路径及文件后缀。
 * 然后需要进行 commit 和 push
+
+### 要删除文件并同步到github
+
+* git rm <文件名>：删除一个文件
+* git rm -r <文件夹名>：删除一个文件夹
+* 然后要 commit 和 push
