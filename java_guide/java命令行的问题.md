@@ -9,4 +9,4 @@
 ##### 其次要注意写全包名
 
 * 比如要启动的类的包名为 learn.test
-* 那么命令应该为 java learn.test.ClassName，并且执行命令的路径应该在包含learn的文件夹下。
+* 那么命令应该为 java learn.test.ClassName，并且执行命令的路径应该在包含learn的文件夹下
