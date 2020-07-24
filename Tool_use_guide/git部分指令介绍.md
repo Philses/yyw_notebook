@@ -10,7 +10,7 @@
     - git config user.email
 - 修改提交人信息的git bash命令行为：
     - git config --global user.name "ustcyyw"
-    - git config --global user.email yang0@mail.ustc.edu.cn
+    - git config --global user.email xxxx@xxxx.xxxx.edu.cn
 
 ### 版本回退
 
